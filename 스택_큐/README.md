@@ -44,6 +44,12 @@ for i in answer : # 모두 출력
 
 ### DEQUE
 
-- front, back  모두 삽입 삭제 가능.
-- 
+- front, back  모두 삽입 삭제 가능. (양방향 데이터 처리 )
+
+```python
+# 파이썬에서 deque 는 collections 사용 
+from collections import deque
+deq = deque()
+# appendm popleft, clear 등 사용 
+```
 
